@@ -3,7 +3,7 @@ import axios from 'axios';
 import Display from './Display';
 import { MainContainer, ChatContainer, MessageList, Message, TypingIndicator, MessageInput } from '@chatscope/chat-ui-kit-react';
 
-const API_KEY ="sk-None-yZwZQYgsSqM6qvVgu7exT3BlbkFJsylOlMtqs6EmClHTRlur"
+const API_KEY ="OPENAI API KEY"
 
 const Chatbot = () => {
   const [messages, setMessages] = useState([
